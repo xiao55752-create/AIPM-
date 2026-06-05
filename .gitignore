@@ -1,0 +1,18 @@
+# Nuxt
+.nuxt
+.output
+.data
+dist
+
+# Node
+node_modules
+*.log
+.DS_Store
+
+# Env
+.env
+.env.*
+
+# IDE
+.idea
+.vscode

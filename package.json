@@ -1,0 +1,24 @@
+{
+  "name": "ai-product-growth-camp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev -H 127.0.0.1 -p 3000",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "HOST=127.0.0.1 nuxt preview -p 3030",
+    "preview:restart": "bash scripts/restart-preview.sh",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.15.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "typescript": "^5.7.3",
+    "vue-tsc": "^2.2.0"
+  }
+}
